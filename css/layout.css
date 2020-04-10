@@ -1,0 +1,37 @@
+#figuresContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    
+    main {
+        display: flex;
+        flex-direction: row;        
+    }
+
+    #sectionContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #articlesContainer {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+
+    #figuresContainer { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+}
